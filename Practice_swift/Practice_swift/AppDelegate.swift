@@ -42,5 +42,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+    
+    
+    
+    
+//    //MARK:创建UI
+//    func createWIFIFileTransferViewController() -> Void {
+//        
+//    }
+//    //MARK:网络请求
+//    
+//    //MARK:代理方法
+//    
+//    //MARK:事件响应
+//    
+//    //MARK:其他方法
+//    
+//    //MARK:内存管理
+//    func WIFIFileTransferViewControllerDataInit() -> Void {
+//        
+//    }
+    
+    
+    
 }
 
