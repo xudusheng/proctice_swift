@@ -11,6 +11,7 @@
 #include <arpa/inet.h>
 
 @implementation XDSIPHelper
+
 + (NSString *)deviceIPAdress {
     NSString *address = @"an error occurred when obtaining ip address";
     struct ifaddrs *interfaces = NULL;

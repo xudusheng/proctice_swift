@@ -9,14 +9,22 @@
 import UIKit
 
 class ViewController: UITableViewController {
-
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         NSLog(indexPath.description);
+        let date = NSDate();
+        let userD = NSUserDefaults(suiteName: "group.com.youmi.productList");
+        userD!.setValue(date.description, forKey: "group.com.youmi.productList.today");
+        userD?.synchronize();
     }
 
 }
