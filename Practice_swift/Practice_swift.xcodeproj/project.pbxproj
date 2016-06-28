@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09126C731D227968001D32A0 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 09126C721D227968001D32A0 /* SSKeychain.m */; };
 		09A2F4D41D2270E100478FBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A2F4D31D2270E100478FBD /* AppDelegate.swift */; };
 		09A2F4D71D22713500478FBD /* XDSTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A2F4D61D22713500478FBD /* XDSTracker.swift */; };
 		09A2F4DD1D22719300478FBD /* XDSThirdPartyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A2F4DC1D22719300478FBD /* XDSThirdPartyService.swift */; };
@@ -65,6 +66,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		09126C711D227968001D32A0 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		09126C721D227968001D32A0 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
 		09A2F4D31D2270E100478FBD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09A2F4D61D22713500478FBD /* XDSTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XDSTracker.swift; sourceTree = "<group>"; };
 		09A2F4DC1D22719300478FBD /* XDSThirdPartyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XDSThirdPartyService.swift; sourceTree = "<group>"; };
@@ -156,6 +159,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09126C701D227968001D32A0 /* KeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				09126C711D227968001D32A0 /* SSKeychain.h */,
+				09126C721D227968001D32A0 /* SSKeychain.m */,
+			);
+			path = KeyChain;
+			sourceTree = "<group>";
+		};
 		09A2F4CC1D2270D300478FBD /* APPDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +195,7 @@
 		09A2F4CF1D2270D300478FBD /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				09126C701D227968001D32A0 /* KeyChain */,
 				09A2F5431D22722400478FBD /* IPHelper */,
 				09A2F4DB1D22719300478FBD /* ThirdPartyService */,
 				09A2F4D51D22713500478FBD /* Tracker */,
@@ -606,6 +619,7 @@
 				09A2F53F1D2271F400478FBD /* WebSocket.m in Sources */,
 				09A2F5251D2271F400478FBD /* GCDAsyncSocket.m in Sources */,
 				09A2F5311D2271F400478FBD /* DDRange.m in Sources */,
+				09126C731D227968001D32A0 /* SSKeychain.m in Sources */,
 				09A2F53D1D2271F400478FBD /* HTTPFileResponse.m in Sources */,
 				09A2F52B1D2271F400478FBD /* DDTTYLogger.m in Sources */,
 				09A2F5331D2271F400478FBD /* HTTPConnection.m in Sources */,

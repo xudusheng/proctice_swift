@@ -18,6 +18,10 @@ class ViewController: UITableViewController {
         super.viewWillAppear(animated)
         
     }
+
+    func loginButtonClick(button:UIButton) -> Void {
+        
+    }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         NSLog(indexPath.description);
