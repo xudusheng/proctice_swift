@@ -2,8 +2,8 @@ platform :ios, '7.0'
 pod 'GrowingIO'  #动态卖埋点
 #友盟统计
 pod 'UMengAnalytics-NO-IDFA', '~> 4.0.5'
-#面向切面设计（AOP）
-pod 'Aspects', '~> 1.4.1'
+#面向切面设计思想（AOP）
+pod 'AspectsV1.4.2', '~> 1.4.2'
 
 pod 'SDWebImage', '~> 3.8.1'
 pod 'MHVideoPhotoGallery', '~> 2.1.3'

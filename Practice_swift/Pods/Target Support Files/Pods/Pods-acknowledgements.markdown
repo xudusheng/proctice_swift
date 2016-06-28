@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## Aspects
+## AspectsV1.4.2
 
 The MIT License (MIT)
 
