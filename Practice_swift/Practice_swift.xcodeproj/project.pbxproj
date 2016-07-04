@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		09126C731D227968001D32A0 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 09126C721D227968001D32A0 /* SSKeychain.m */; };
+		0977B4291D2A3B19008C5F2D /* XDSAPITestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0977B4281D2A3B19008C5F2D /* XDSAPITestViewController.swift */; };
 		09A2F4D41D2270E100478FBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A2F4D31D2270E100478FBD /* AppDelegate.swift */; };
 		09A2F4D71D22713500478FBD /* XDSTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A2F4D61D22713500478FBD /* XDSTracker.swift */; };
 		09A2F4DD1D22719300478FBD /* XDSThirdPartyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A2F4DC1D22719300478FBD /* XDSThirdPartyService.swift */; };
@@ -44,12 +45,13 @@
 		09A2F5421D2271F400478FBD /* upload.html in Resources */ = {isa = PBXBuildFile; fileRef = 09A2F5231D2271F400478FBD /* upload.html */; };
 		09A2F5461D22722400478FBD /* XDSIPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A2F5451D22722400478FBD /* XDSIPHelper.m */; };
 		09A2F5491D22723C00478FBD /* XDSWIFIFileTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A2F5481D22723C00478FBD /* XDSWIFIFileTransferViewController.swift */; };
-		498D1A6DEE57BA583A2A8E2E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97BB1F063741BC747F66BEB3 /* libPods.a */; };
+		09C3A82E1D2A44E30038A7D4 /* XDSSwiftHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C3A82D1D2A44E30038A7D4 /* XDSSwiftHeaders.swift */; };
 		A02697241D1E5005002D30AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02697231D1E5005002D30AB /* ViewController.swift */; };
 		A02697271D1E5005002D30AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02697251D1E5005002D30AB /* Main.storyboard */; };
 		A02697291D1E5005002D30AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02697281D1E5005002D30AB /* Assets.xcassets */; };
 		A026972C1D1E5005002D30AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A026972A1D1E5005002D30AB /* LaunchScreen.storyboard */; };
 		A02995971D21665D0047C1DC /* wifi.png in Resources */ = {isa = PBXBuildFile; fileRef = A02995961D21665D0047C1DC /* wifi.png */; };
+		CE6AD1EAB32309B6D5BCEB38 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311045225B85B62F5BFE5CE9 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,6 +70,7 @@
 /* Begin PBXFileReference section */
 		09126C711D227968001D32A0 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
 		09126C721D227968001D32A0 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		0977B4281D2A3B19008C5F2D /* XDSAPITestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XDSAPITestViewController.swift; sourceTree = "<group>"; };
 		09A2F4D31D2270E100478FBD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09A2F4D61D22713500478FBD /* XDSTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XDSTracker.swift; sourceTree = "<group>"; };
 		09A2F4DC1D22719300478FBD /* XDSThirdPartyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XDSThirdPartyService.swift; sourceTree = "<group>"; };
@@ -133,8 +136,9 @@
 		09A2F5441D22722400478FBD /* XDSIPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDSIPHelper.h; sourceTree = "<group>"; };
 		09A2F5451D22722400478FBD /* XDSIPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDSIPHelper.m; sourceTree = "<group>"; };
 		09A2F5481D22723C00478FBD /* XDSWIFIFileTransferViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XDSWIFIFileTransferViewController.swift; sourceTree = "<group>"; };
+		09C3A82D1D2A44E30038A7D4 /* XDSSwiftHeaders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XDSSwiftHeaders.swift; sourceTree = "<group>"; };
 		2433A474031A6FBCD3F96DAC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		97BB1F063741BC747F66BEB3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		311045225B85B62F5BFE5CE9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A026971E1D1E5005002D30AB /* Practice_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02697231D1E5005002D30AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A02697261D1E5005002D30AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -152,7 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				498D1A6DEE57BA583A2A8E2E /* libPods.a in Frameworks */,
+				CE6AD1EAB32309B6D5BCEB38 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +170,14 @@
 				09126C721D227968001D32A0 /* SSKeychain.m */,
 			);
 			path = KeyChain;
+			sourceTree = "<group>";
+		};
+		0977B4271D2A3A7C008C5F2D /* 后台接口调试 */ = {
+			isa = PBXGroup;
+			children = (
+				0977B4281D2A3B19008C5F2D /* XDSAPITestViewController.swift */,
+			);
+			path = "后台接口调试";
 			sourceTree = "<group>";
 		};
 		09A2F4CC1D2270D300478FBD /* APPDelegate */ = {
@@ -206,6 +218,7 @@
 		09A2F4D01D2270D300478FBD /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				09C3A82C1D2A44CE0038A7D4 /* SwiftHeaders */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -251,6 +264,7 @@
 		09A2F4DF1D2271BD00478FBD /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				0977B4271D2A3A7C008C5F2D /* 后台接口调试 */,
 				09A2F5471D22723C00478FBD /* wifi文件传输 */,
 			);
 			path = ViewControllers;
@@ -403,6 +417,14 @@
 			path = "wifi文件传输";
 			sourceTree = "<group>";
 		};
+		09C3A82C1D2A44CE0038A7D4 /* SwiftHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				09C3A82D1D2A44E30038A7D4 /* XDSSwiftHeaders.swift */,
+			);
+			path = SwiftHeaders;
+			sourceTree = "<group>";
+		};
 		27CF376613AD48D5D5583EB8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -470,8 +492,8 @@
 		F91121E996534F1697BE6E46 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				97BB1F063741BC747F66BEB3 /* libPods.a */,
 				A02D448E1D1FC9EE00DC0A2B /* NotificationCenter.framework */,
+				311045225B85B62F5BFE5CE9 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -612,6 +634,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09A2F4DD1D22719300478FBD /* XDSThirdPartyService.swift in Sources */,
+				09C3A82E1D2A44E30038A7D4 /* XDSSwiftHeaders.swift in Sources */,
 				09A2F4D41D2270E100478FBD /* AppDelegate.swift in Sources */,
 				09A2F5321D2271F400478FBD /* HTTPAuthenticationRequest.m in Sources */,
 				09A2F52F1D2271F400478FBD /* DDData.m in Sources */,
@@ -644,6 +667,7 @@
 				09A2F5341D2271F400478FBD /* HTTPMessage.m in Sources */,
 				09A2F5271D2271F400478FBD /* DDAbstractDatabaseLogger.m in Sources */,
 				09A2F5381D2271F400478FBD /* MultipartMessageHeaderField.m in Sources */,
+				0977B4291D2A3B19008C5F2D /* XDSAPITestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,7 +711,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: mu he (FX98SJ5KRZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: mu he (FX98SJ5KRZ)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -709,6 +734,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "c2914f72-566b-4d2c-b33a-88456922b497";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -733,7 +759,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: mu he (FX98SJ5KRZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: mu he (FX98SJ5KRZ)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -748,6 +775,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "c2914f72-566b-4d2c-b33a-88456922b497";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -763,13 +791,14 @@
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer: mu he (FX98SJ5KRZ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: mu he (FX98SJ5KRZ)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Practice_swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.youmi.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youmi.devp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c2914f72-566b-4d2c-b33a-88456922b497";
 				SWIFT_OBJC_BRIDGING_HEADER = "Practice_swift/Practice_swift-Bridging-Header.h";
@@ -786,13 +815,14 @@
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer: mu he (FX98SJ5KRZ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: mu he (FX98SJ5KRZ)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Practice_swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.youmi.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youmi.devp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c2914f72-566b-4d2c-b33a-88456922b497";
 				SWIFT_OBJC_BRIDGING_HEADER = "Practice_swift/Practice_swift-Bridging-Header.h";

@@ -82,3 +82,24 @@ strip_invalid_archs() {
   fi
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods/AFNetworking.framework"
+  install_framework "Pods/AspectsV1_4_2.framework"
+  install_framework "Pods/MHVideoPhotoGallery.framework"
+  install_framework "Pods/Masonry.framework"
+  install_framework "Pods/SDWebImage.framework"
+  install_framework "Pods/SnapKit.framework"
+  install_framework "Pods/TTTAttributedLabel.framework"
+  install_framework "Pods/WebViewJavascriptBridge.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods/AFNetworking.framework"
+  install_framework "Pods/AspectsV1_4_2.framework"
+  install_framework "Pods/MHVideoPhotoGallery.framework"
+  install_framework "Pods/Masonry.framework"
+  install_framework "Pods/SDWebImage.framework"
+  install_framework "Pods/SnapKit.framework"
+  install_framework "Pods/TTTAttributedLabel.framework"
+  install_framework "Pods/WebViewJavascriptBridge.framework"
+fi

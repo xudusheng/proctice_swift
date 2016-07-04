@@ -24,12 +24,29 @@ class ViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        NSLog(indexPath.description);
-        let date = NSDate();
-        let userD = NSUserDefaults(suiteName: "group.com.youmi.productList");
-        userD!.setValue(date.description, forKey: "group.com.youmi.productList.today");
-        userD?.synchronize();
+        if (indexPath.row == 0 && indexPath.section == 0) {
+            let apiTestVC = XDSAPITestViewController();
+            self.navigationController?.pushViewController(apiTestVC, animated: true);
+            
+        }
     }
 
+    
+    ////MARK: - UI相关
+    //func createOCMainTabBarControllerUI(){
+    //}
+    //
+    ////MARK: - 代理方法
+    //
+    ////MARK: - 网络请求
+    //
+    ////MARK: - 事件响应处理
+    //
+    ////MARK: - 其他私有方法
+    //
+    ////MARK: - 内存管理相关
+    //func ocMainTabBarControllerDataInit(){
+    //}
+    
 }
 
