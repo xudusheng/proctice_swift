@@ -40,7 +40,7 @@ class XDSAPITestViewController: UIViewController {
         let manager = AFHTTPSessionManager();
         manager.responseSerializer = AFCompoundResponseSerializer();
 
-        manager.POST("http://localhost:8080/Iyaose/HttpServletResponseDemo", parameters: nil, progress: { (progress:NSProgress) in
+        manager.POST("http://192.168.2.102:8080/Youmi/ServletDemo?username=xudusheng", parameters: nil, progress: { (progress:NSProgress) in
             
             }, success: { (dataTask:NSURLSessionDataTask, obj:AnyObject?) in
                 do{

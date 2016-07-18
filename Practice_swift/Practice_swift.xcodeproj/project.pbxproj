@@ -148,6 +148,7 @@
 		A02697381D1E6B41002D30AB /* Practice_swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Practice_swift-Bridging-Header.h"; sourceTree = "<group>"; };
 		A02995961D21665D0047C1DC /* wifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wifi.png; sourceTree = "<group>"; };
 		A02D448E1D1FC9EE00DC0A2B /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		A0ADAE181D2AA5F30043DD18 /* XDSOCThirdPartyHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDSOCThirdPartyHeader.h; sourceTree = "<group>"; };
 		DB9BEFDB11541FD9598A510B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -219,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				09C3A82C1D2A44CE0038A7D4 /* SwiftHeaders */,
+				A0ADAE181D2AA5F30043DD18 /* XDSOCThirdPartyHeader.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";

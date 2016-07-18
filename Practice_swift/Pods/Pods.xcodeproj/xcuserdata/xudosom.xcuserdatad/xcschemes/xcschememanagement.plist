@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Aspects.xcscheme</key>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AspectsV1.4.2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -29,6 +34,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SnapKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>TTTAttributedLabel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,37 +52,47 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2AEA23732F9E3EA1FE32E79753505311</key>
+		<key>1C3436CEA5C3D39764C5F54374794ECB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>53480ED0BE09FF49E34B1702D485CAAB</key>
+		<key>24E19B9F01D14FD4F0BA6232ADEF58F7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6BD5C51A885738457D1FEE268C81B6B1</key>
+		<key>441B965F881E4E91093C1059356CFB51</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A6E9FC12D6491A611DCFDFA058D98C66</key>
+		<key>69D7E3FBAFDF74924D79BCC9A9851830</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AED6A4A653020A840EBD6C592987973F</key>
+		<key>73D21EA3CE9ABCDA26F162D45665AF93</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D9E3CD4007922EA328B6DB1D6188E309</key>
+		<key>88B793CB88A3270533AFD3E016C675E2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DBC9A0AF6D4571D059D2AF2422F2BD6E</key>
+		<key>A8664882ECEB0562C17DB6D1D8600FEF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A9A83F63385AA43314397B8DD375464B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F6577CCC59333B45DB640FFCD4560817</key>
 		<dict>
 			<key>primary</key>
 			<true/>

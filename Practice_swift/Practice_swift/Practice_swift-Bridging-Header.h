@@ -8,6 +8,4 @@
 #import "MyHTTPConnection.h"
 #import "XDSIPHelper.h"
 
-#import <AFNetworking.h>
-#import <Growing.h>
-#import <Aspects.h>
+#import "XDSOCThirdPartyHeader.h"
