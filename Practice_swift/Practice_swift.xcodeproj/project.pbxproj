@@ -61,6 +61,7 @@
 		A02697291D1E5005002D30AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02697281D1E5005002D30AB /* Assets.xcassets */; };
 		A026972C1D1E5005002D30AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A026972A1D1E5005002D30AB /* LaunchScreen.storyboard */; };
 		A02995971D21665D0047C1DC /* wifi.png in Resources */ = {isa = PBXBuildFile; fileRef = A02995961D21665D0047C1DC /* wifi.png */; };
+		A0368BAA1D3D26830074A0E1 /* mynotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = A0368BA91D3D26830074A0E1 /* mynotes.txt */; };
 		CE6AD1EAB32309B6D5BCEB38 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311045225B85B62F5BFE5CE9 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -168,6 +169,7 @@
 		A02697381D1E6B41002D30AB /* Practice_swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Practice_swift-Bridging-Header.h"; sourceTree = "<group>"; };
 		A02995961D21665D0047C1DC /* wifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wifi.png; sourceTree = "<group>"; };
 		A02D448E1D1FC9EE00DC0A2B /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		A0368BA91D3D26830074A0E1 /* mynotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mynotes.txt; sourceTree = "<group>"; };
 		A0ADAE181D2AA5F30043DD18 /* XDSOCThirdPartyHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDSOCThirdPartyHeader.h; sourceTree = "<group>"; };
 		DB9BEFDB11541FD9598A510B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -515,6 +517,7 @@
 		A02995251D2165A70047C1DC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A0368BA91D3D26830074A0E1 /* mynotes.txt */,
 				09B4A6AF1D3CD9310019FD04 /* wechatNotes */,
 				A02995951D21665D0047C1DC /* images */,
 			);
@@ -610,6 +613,7 @@
 				09B4A6BB1D3CD93A0019FD04 /* 创新的赢利模式-纪永英 in Resources */,
 				09B4A6BE1D3CD93A0019FD04 /* 货币的教训：汇率与货币系列评论-周其仁 in Resources */,
 				09B4A6BD1D3CD93A0019FD04 /* 互联网思维-钟殿舟 in Resources */,
+				A0368BAA1D3D26830074A0E1 /* mynotes.txt in Resources */,
 				09A2F5421D2271F400478FBD /* upload.html in Resources */,
 				A026972C1D1E5005002D30AB /* LaunchScreen.storyboard in Resources */,
 				09B4A6BA1D3CD93A0019FD04 /* 30岁前建人脉 30岁后赚大钱-龙柒 in Resources */,
@@ -745,6 +749,7 @@
 /* Begin XCBuildConfiguration section */
 		A026972E1D1E5005002D30AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB9BEFDB11541FD9598A510B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -781,6 +786,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_ROOT}/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -793,6 +802,7 @@
 		};
 		A026972F1D1E5005002D30AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2433A474031A6FBCD3F96DAC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -823,6 +833,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_ROOT}/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PROVISIONING_PROFILE = "c2914f72-566b-4d2c-b33a-88456922b497";
@@ -841,9 +855,12 @@
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer: mu he (FX98SJ5KRZ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: mu he (FX98SJ5KRZ)";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				HEADER_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PODS_ROOT)",
+				);
 				INFOPLIST_FILE = Practice_swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
@@ -865,9 +882,12 @@
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer: mu he (FX98SJ5KRZ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: mu he (FX98SJ5KRZ)";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				HEADER_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PODS_ROOT)",
+				);
 				INFOPLIST_FILE = Practice_swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";

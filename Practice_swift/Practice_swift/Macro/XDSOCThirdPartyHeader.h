@@ -11,6 +11,6 @@
 
 #import <AFNetworking.h>
 #import <Growing.h>
-#import <Aspects.h>
+#import <AspectsV1.4.2/Aspects.h>
 
 #endif /* XDSOCThirdPartyHeader_h */
