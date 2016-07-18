@@ -45,6 +45,16 @@
 		09A2F5421D2271F400478FBD /* upload.html in Resources */ = {isa = PBXBuildFile; fileRef = 09A2F5231D2271F400478FBD /* upload.html */; };
 		09A2F5461D22722400478FBD /* XDSIPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A2F5451D22722400478FBD /* XDSIPHelper.m */; };
 		09A2F5491D22723C00478FBD /* XDSWIFIFileTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A2F5481D22723C00478FBD /* XDSWIFIFileTransferViewController.swift */; };
+		09B4A6BA1D3CD93A0019FD04 /* 30岁前建人脉 30岁后赚大钱-龙柒 in Resources */ = {isa = PBXBuildFile; fileRef = 09B4A6B01D3CD93A0019FD04 /* 30岁前建人脉 30岁后赚大钱-龙柒 */; };
+		09B4A6BB1D3CD93A0019FD04 /* 创新的赢利模式-纪永英 in Resources */ = {isa = PBXBuildFile; fileRef = 09B4A6B11D3CD93A0019FD04 /* 创新的赢利模式-纪永英 */; };
+		09B4A6BC1D3CD93A0019FD04 /* 创业时，我们在知乎聊什么?-知乎 in Resources */ = {isa = PBXBuildFile; fileRef = 09B4A6B21D3CD93A0019FD04 /* 创业时，我们在知乎聊什么?-知乎 */; };
+		09B4A6BD1D3CD93A0019FD04 /* 互联网思维-钟殿舟 in Resources */ = {isa = PBXBuildFile; fileRef = 09B4A6B31D3CD93A0019FD04 /* 互联网思维-钟殿舟 */; };
+		09B4A6BE1D3CD93A0019FD04 /* 货币的教训：汇率与货币系列评论-周其仁 in Resources */ = {isa = PBXBuildFile; fileRef = 09B4A6B41D3CD93A0019FD04 /* 货币的教训：汇率与货币系列评论-周其仁 */; };
+		09B4A6BF1D3CD93A0019FD04 /* 快挖掘你的财商-任宪法 著 in Resources */ = {isa = PBXBuildFile; fileRef = 09B4A6B51D3CD93A0019FD04 /* 快挖掘你的财商-任宪法 著 */; };
+		09B4A6C01D3CD93A0019FD04 /* 途客圈创业记：不疯魔，不成活-陈天 in Resources */ = {isa = PBXBuildFile; fileRef = 09B4A6B61D3CD93A0019FD04 /* 途客圈创业记：不疯魔，不成活-陈天 */; };
+		09B4A6C11D3CD93A0019FD04 /* 一开口就能找对话题-刘成 in Resources */ = {isa = PBXBuildFile; fileRef = 09B4A6B71D3CD93A0019FD04 /* 一开口就能找对话题-刘成 */; };
+		09B4A6C21D3CD93A0019FD04 /* 引爆社群：移动互联网时代的新4C法则-唐兴通 in Resources */ = {isa = PBXBuildFile; fileRef = 09B4A6B81D3CD93A0019FD04 /* 引爆社群：移动互联网时代的新4C法则-唐兴通 */; };
+		09B4A6C31D3CD93A0019FD04 /* 长投专刊 精华版（一）穷爸爸，富爸爸-长投网 in Resources */ = {isa = PBXBuildFile; fileRef = 09B4A6B91D3CD93A0019FD04 /* 长投专刊 精华版（一）穷爸爸，富爸爸-长投网 */; };
 		09C3A82E1D2A44E30038A7D4 /* XDSSwiftHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C3A82D1D2A44E30038A7D4 /* XDSSwiftHeaders.swift */; };
 		A02697241D1E5005002D30AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02697231D1E5005002D30AB /* ViewController.swift */; };
 		A02697271D1E5005002D30AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02697251D1E5005002D30AB /* Main.storyboard */; };
@@ -136,6 +146,16 @@
 		09A2F5441D22722400478FBD /* XDSIPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDSIPHelper.h; sourceTree = "<group>"; };
 		09A2F5451D22722400478FBD /* XDSIPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDSIPHelper.m; sourceTree = "<group>"; };
 		09A2F5481D22723C00478FBD /* XDSWIFIFileTransferViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XDSWIFIFileTransferViewController.swift; sourceTree = "<group>"; };
+		09B4A6B01D3CD93A0019FD04 /* 30岁前建人脉 30岁后赚大钱-龙柒 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "30岁前建人脉 30岁后赚大钱-龙柒"; sourceTree = "<group>"; };
+		09B4A6B11D3CD93A0019FD04 /* 创新的赢利模式-纪永英 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "创新的赢利模式-纪永英"; sourceTree = "<group>"; };
+		09B4A6B21D3CD93A0019FD04 /* 创业时，我们在知乎聊什么?-知乎 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "创业时，我们在知乎聊什么?-知乎"; sourceTree = "<group>"; };
+		09B4A6B31D3CD93A0019FD04 /* 互联网思维-钟殿舟 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "互联网思维-钟殿舟"; sourceTree = "<group>"; };
+		09B4A6B41D3CD93A0019FD04 /* 货币的教训：汇率与货币系列评论-周其仁 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "货币的教训：汇率与货币系列评论-周其仁"; sourceTree = "<group>"; };
+		09B4A6B51D3CD93A0019FD04 /* 快挖掘你的财商-任宪法 著 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "快挖掘你的财商-任宪法 著"; sourceTree = "<group>"; };
+		09B4A6B61D3CD93A0019FD04 /* 途客圈创业记：不疯魔，不成活-陈天 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "途客圈创业记：不疯魔，不成活-陈天"; sourceTree = "<group>"; };
+		09B4A6B71D3CD93A0019FD04 /* 一开口就能找对话题-刘成 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "一开口就能找对话题-刘成"; sourceTree = "<group>"; };
+		09B4A6B81D3CD93A0019FD04 /* 引爆社群：移动互联网时代的新4C法则-唐兴通 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "引爆社群：移动互联网时代的新4C法则-唐兴通"; sourceTree = "<group>"; };
+		09B4A6B91D3CD93A0019FD04 /* 长投专刊 精华版（一）穷爸爸，富爸爸-长投网 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "长投专刊 精华版（一）穷爸爸，富爸爸-长投网"; sourceTree = "<group>"; };
 		09C3A82D1D2A44E30038A7D4 /* XDSSwiftHeaders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XDSSwiftHeaders.swift; sourceTree = "<group>"; };
 		2433A474031A6FBCD3F96DAC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		311045225B85B62F5BFE5CE9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -417,6 +437,23 @@
 			path = "wifi文件传输";
 			sourceTree = "<group>";
 		};
+		09B4A6AF1D3CD9310019FD04 /* wechatNotes */ = {
+			isa = PBXGroup;
+			children = (
+				09B4A6B01D3CD93A0019FD04 /* 30岁前建人脉 30岁后赚大钱-龙柒 */,
+				09B4A6B11D3CD93A0019FD04 /* 创新的赢利模式-纪永英 */,
+				09B4A6B21D3CD93A0019FD04 /* 创业时，我们在知乎聊什么?-知乎 */,
+				09B4A6B31D3CD93A0019FD04 /* 互联网思维-钟殿舟 */,
+				09B4A6B41D3CD93A0019FD04 /* 货币的教训：汇率与货币系列评论-周其仁 */,
+				09B4A6B51D3CD93A0019FD04 /* 快挖掘你的财商-任宪法 著 */,
+				09B4A6B61D3CD93A0019FD04 /* 途客圈创业记：不疯魔，不成活-陈天 */,
+				09B4A6B71D3CD93A0019FD04 /* 一开口就能找对话题-刘成 */,
+				09B4A6B81D3CD93A0019FD04 /* 引爆社群：移动互联网时代的新4C法则-唐兴通 */,
+				09B4A6B91D3CD93A0019FD04 /* 长投专刊 精华版（一）穷爸爸，富爸爸-长投网 */,
+			);
+			path = wechatNotes;
+			sourceTree = "<group>";
+		};
 		09C3A82C1D2A44CE0038A7D4 /* SwiftHeaders */ = {
 			isa = PBXGroup;
 			children = (
@@ -476,6 +513,7 @@
 		A02995251D2165A70047C1DC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				09B4A6AF1D3CD9310019FD04 /* wechatNotes */,
 				A02995951D21665D0047C1DC /* images */,
 			);
 			path = Resources;
@@ -566,14 +604,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09B4A6C01D3CD93A0019FD04 /* 途客圈创业记：不疯魔，不成活-陈天 in Resources */,
+				09B4A6BB1D3CD93A0019FD04 /* 创新的赢利模式-纪永英 in Resources */,
+				09B4A6BE1D3CD93A0019FD04 /* 货币的教训：汇率与货币系列评论-周其仁 in Resources */,
+				09B4A6BD1D3CD93A0019FD04 /* 互联网思维-钟殿舟 in Resources */,
 				09A2F5421D2271F400478FBD /* upload.html in Resources */,
 				A026972C1D1E5005002D30AB /* LaunchScreen.storyboard in Resources */,
+				09B4A6BA1D3CD93A0019FD04 /* 30岁前建人脉 30岁后赚大钱-龙柒 in Resources */,
 				A02995971D21665D0047C1DC /* wifi.png in Resources */,
+				09B4A6C11D3CD93A0019FD04 /* 一开口就能找对话题-刘成 in Resources */,
 				09A2F5411D2271F400478FBD /* index.html in Resources */,
 				A02697291D1E5005002D30AB /* Assets.xcassets in Resources */,
 				09A2F5241D2271F400478FBD /* About.txt in Resources */,
+				09B4A6BC1D3CD93A0019FD04 /* 创业时，我们在知乎聊什么?-知乎 in Resources */,
 				09A2F5261D2271F400478FBD /* About.txt in Resources */,
 				A02697271D1E5005002D30AB /* Main.storyboard in Resources */,
+				09B4A6BF1D3CD93A0019FD04 /* 快挖掘你的财商-任宪法 著 in Resources */,
+				09B4A6C21D3CD93A0019FD04 /* 引爆社群：移动互联网时代的新4C法则-唐兴通 in Resources */,
+				09B4A6C31D3CD93A0019FD04 /* 长投专刊 精华版（一）穷爸爸，富爸爸-长投网 in Resources */,
 				09A2F52E1D2271F400478FBD /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -800,7 +848,7 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.youmi.devp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c2914f72-566b-4d2c-b33a-88456922b497";
+				PROVISIONING_PROFILE = "1298bedb-99f7-42fa-aaf1-cc3de38eab37";
 				SWIFT_OBJC_BRIDGING_HEADER = "Practice_swift/Practice_swift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -824,7 +872,7 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.youmi.devp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c2914f72-566b-4d2c-b33a-88456922b497";
+				PROVISIONING_PROFILE = "1298bedb-99f7-42fa-aaf1-cc3de38eab37";
 				SWIFT_OBJC_BRIDGING_HEADER = "Practice_swift/Practice_swift-Bridging-Header.h";
 			};
 			name = Release;

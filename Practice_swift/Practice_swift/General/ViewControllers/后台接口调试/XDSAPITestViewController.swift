@@ -37,9 +37,20 @@ class XDSAPITestViewController: UIViewController {
     //MARK: - 事件响应处理
     func buttonClick(button:UIButton) -> Void {
         NSLog("xxxxxxxxxx");
+
+        
+    }
+    //MARK: - 其他私有方法
+    //TODO:读取本地json字符串文件(微信读书笔记文件)
+    func readLocalJsonFile() -> Void {
+        let filePath = NSBundle.mainBundle().pathForResource("途客圈创业记：不疯魔，不成活-陈天", ofType: "");
+        NSLog(filePath!);
+    }
+    //TODO:自己写的后台接口
+    func selfRequestAPI() -> Void {
         let manager = AFHTTPSessionManager();
         manager.responseSerializer = AFCompoundResponseSerializer();
-
+        
         manager.POST("http://localhost:8080/Iyaose/HttpServletResponseDemo", parameters: nil, progress: { (progress:NSProgress) in
             
             }, success: { (dataTask:NSURLSessionDataTask, obj:AnyObject?) in
@@ -55,11 +66,7 @@ class XDSAPITestViewController: UIViewController {
         }) { (dataTask:NSURLSessionDataTask?, error:NSError) in
             NSLog("error ====== \(error)");
         };
-
-        
     }
-    //MARK: - 其他私有方法
-    
     //MARK: - 内存管理相关
     func apiTestViewControllerDataInit() -> Void{
     }
