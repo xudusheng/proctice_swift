@@ -62,6 +62,8 @@
 		A026972C1D1E5005002D30AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A026972A1D1E5005002D30AB /* LaunchScreen.storyboard */; };
 		A02995971D21665D0047C1DC /* wifi.png in Resources */ = {isa = PBXBuildFile; fileRef = A02995961D21665D0047C1DC /* wifi.png */; };
 		A0368BAA1D3D26830074A0E1 /* mynotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = A0368BA91D3D26830074A0E1 /* mynotes.txt */; };
+		A07E581E1D4EB06B00DC6292 /* XDSCubeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A07E581D1D4EB06B00DC6292 /* XDSCubeView.xib */; };
+		A0E6E5511D4C853100BF0099 /* XDSCoreAnimationAdvancedTechniquesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E6E5501D4C853100BF0099 /* XDSCoreAnimationAdvancedTechniquesViewController.swift */; };
 		CE6AD1EAB32309B6D5BCEB38 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311045225B85B62F5BFE5CE9 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -170,7 +172,9 @@
 		A02995961D21665D0047C1DC /* wifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wifi.png; sourceTree = "<group>"; };
 		A02D448E1D1FC9EE00DC0A2B /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		A0368BA91D3D26830074A0E1 /* mynotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mynotes.txt; sourceTree = "<group>"; };
+		A07E581D1D4EB06B00DC6292 /* XDSCubeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XDSCubeView.xib; sourceTree = "<group>"; };
 		A0ADAE181D2AA5F30043DD18 /* XDSOCThirdPartyHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDSOCThirdPartyHeader.h; sourceTree = "<group>"; };
+		A0E6E5501D4C853100BF0099 /* XDSCoreAnimationAdvancedTechniquesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XDSCoreAnimationAdvancedTechniquesViewController.swift; sourceTree = "<group>"; };
 		DB9BEFDB11541FD9598A510B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -290,6 +294,7 @@
 			children = (
 				0977B4271D2A3A7C008C5F2D /* 后台接口调试 */,
 				09A2F5471D22723C00478FBD /* wifi文件传输 */,
+				A0E6E54F1D4C84C900BF0099 /* Core-Animation-Advanced-Techniques */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -532,6 +537,15 @@
 			path = images;
 			sourceTree = "<group>";
 		};
+		A0E6E54F1D4C84C900BF0099 /* Core-Animation-Advanced-Techniques */ = {
+			isa = PBXGroup;
+			children = (
+				A0E6E5501D4C853100BF0099 /* XDSCoreAnimationAdvancedTechniquesViewController.swift */,
+				A07E581D1D4EB06B00DC6292 /* XDSCubeView.xib */,
+			);
+			path = "Core-Animation-Advanced-Techniques";
+			sourceTree = "<group>";
+		};
 		F91121E996534F1697BE6E46 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -616,6 +630,7 @@
 				A0368BAA1D3D26830074A0E1 /* mynotes.txt in Resources */,
 				09A2F5421D2271F400478FBD /* upload.html in Resources */,
 				A026972C1D1E5005002D30AB /* LaunchScreen.storyboard in Resources */,
+				A07E581E1D4EB06B00DC6292 /* XDSCubeView.xib in Resources */,
 				09B4A6BA1D3CD93A0019FD04 /* 30岁前建人脉 30岁后赚大钱-龙柒 in Resources */,
 				A02995971D21665D0047C1DC /* wifi.png in Resources */,
 				09B4A6C11D3CD93A0019FD04 /* 一开口就能找对话题-刘成 in Resources */,
@@ -694,6 +709,7 @@
 				09A2F52F1D2271F400478FBD /* DDData.m in Sources */,
 				09A2F53A1D2271F400478FBD /* HTTPDataResponse.m in Sources */,
 				09A2F53F1D2271F400478FBD /* WebSocket.m in Sources */,
+				A0E6E5511D4C853100BF0099 /* XDSCoreAnimationAdvancedTechniquesViewController.swift in Sources */,
 				09A2F5251D2271F400478FBD /* GCDAsyncSocket.m in Sources */,
 				09A2F5311D2271F400478FBD /* DDRange.m in Sources */,
 				09126C731D227968001D32A0 /* SSKeychain.m in Sources */,
